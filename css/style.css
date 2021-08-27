@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #d1c286;
 }
 
-.fh5co-nav {background: rgb(97, 54, 39);
+.fh5co-nav {background: rgb(255, 255, 255);
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -142,19 +142,19 @@ h1, h2, h3, h4, h5, h6, figure {
   border: none;
 }
 .fh5co-nav .menu-2 li button i {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 .fh5co-nav .menu-2 li button:hover, .fh5co-nav .menu-2 li button:focus {
   background: transparent !important;
 }
 .fh5co-nav .menu-2 li button:hover i, .fh5co-nav .menu-2 li button:focus i {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fh5co-nav .menu-2 li.shopping-cart {
   float: right;
 }
 .fh5co-nav .menu-2 li a.cart {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fh5co-nav .menu-2 li a.cart span {
   position: relative;
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 0;
   font-size: 11px;
   background: #d1c286;
-  color: white;
+  color: rgb(0, 0, 0);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -188,16 +188,16 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 13px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fh5co-nav ul li a.cart {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fh5co-nav ul li a.cart span {
   position: relative;
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 0;
   font-size: 11px;
   background: #d1c286;
-  color: white;
+  color: rgb(0, 0, 0);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -221,9 +221,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li.has-dropdown .dropdown {
   width: 300px;
-  -webkit-box-shadow: 0px 14px 33px -9px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 0px 14px 33px -9px rgba(255, 255, 255, 0.75);
-  box-shadow: 0px 14px 33px -9px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
   z-index: 1002;
   visibility: hidden;
   opacity: 0;
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   text-align: left;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(0, 0, 0);
   border-width: 8px;
   margin-left: -8px;
 }
@@ -270,10 +270,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 15px;
 }
 .fh5co-nav ul li.has-dropdown .dropdown li a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .fh5co-nav ul li.active > a {
   color: rgb(255, 255, 255) !important;
